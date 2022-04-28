@@ -1,6 +1,8 @@
-# crosswords
+# Crosswords
 
+DM 3A WD
 
+Subject: https://docs.google.com/document/d/1iANHIFlXHk8IZ1SF_ofyrGmaRO1p60QDUM8pwYECAYo/edit?usp=sharing
 
 ## Getting started
 
@@ -15,14 +17,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.eemi.tech/samuel.hanein/crosswords.git
+git remote add origin https://gitlab.eemi.tech/arnaud.limbourg/crosswords.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.eemi.tech/samuel.hanein/crosswords/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.eemi.tech/arnaud.limbourg/crosswords/-/settings/integrations)
 
 ## Collaborate with your team
 
