@@ -1,11 +1,11 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-
-from grid.models import tab
+import grid.settings.index
 
 
 def index(request):
-
-    return render (request,
-                   'grid/index.html',
-                   {'tab', tab})
+    tab = grid.settings.index.fc_grille()
+    context = {
+        "tab": tab
+    }
+    return render(request, 'grid/index.html', context)

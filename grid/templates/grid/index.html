@@ -1,12 +1,30 @@
 {% load static %}
-
+{#{{ grille = tab.items() }}#}
 <html>
     <head>
         <title>Mots croisés</title>
         <link rel="stylesheet" href="{% static 'grid/styles.css' %}" />
     </head>
     <body>
-        <h1>Hello Django !</h1>
-        <p>{{ tab }}</p>
+        <header>
+            <h1>Mots Croisés</h1>
+        </header>
+        <div class="grille-section">
+            <div class="grille">
+                <table>
+                    {% for ligne in tab %}
+                        <tr>
+                            {% for cellule in ligne %}
+                                {% if cellule != " "%}
+                                    <td class="border">{{ cellule }}</td>
+                                {% else %}
+                                    <td>{{ cellule }}</td>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
     </body>
 </html>
