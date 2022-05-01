@@ -6,7 +6,7 @@ Subject: https://docs.google.com/document/d/1iANHIFlXHk8IZ1SF_ofyrGmaRO1p60QDUM8
 
 ## Team 
 
-Rayane
-Avi
-Daniel
-Samuel
+Rayane Benazzouz
+Avi-mkikes Uzan
+Daniel Levy
+Samuel Hanein
